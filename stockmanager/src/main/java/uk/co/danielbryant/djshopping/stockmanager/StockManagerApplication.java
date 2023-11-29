@@ -16,8 +16,8 @@ public class StockManagerApplication {
 }
 @RestController
 public class SimpleRestController {
-     @GetMapping("/example")
-     public String example() {
+     @GetMapping("/health")
+     public String health() {
          return "Hello User !! " + new Date();
      }
 }
